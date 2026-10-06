@@ -1,0 +1,40 @@
+name: handle_app
+description: Control application for HANDLE ESP32 device.
+publish_to: 'none'
+
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  flutter_blue_plus: ^2.3.12
+  permission_handler: ^12.0.3
+
+  # Выбор изображений
+  image_picker: ^1.2.1
+
+  # Обработка изображений
+  image: ^4.5.4
+
+  # Интерактивная обрезка
+  crop_your_image: ^2.0.0
+
+permission_handler: ^12.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
